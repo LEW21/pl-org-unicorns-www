@@ -1,0 +1,4 @@
+.parcel-cache/
+generated/
+dist/
+node_modules/
