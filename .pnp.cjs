@@ -36,6 +36,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:af8ce6af302336ef11c0666539316d69ddc6bca746fad0b54c5d7dfb3efc1e61c4770f20ec34ec22760d3d222ce6b34dcac288d7be6738d4fb26f6a55edd6c4f#npm:19.1.9"],\
           ["buffer", "npm:6.0.3"],\
           ["contentful", "npm:11.7.15"],\
+          ["invokers-polyfill", "npm:0.5.7"],\
           ["parcel", "virtual:af8ce6af302336ef11c0666539316d69ddc6bca746fad0b54c5d7dfb3efc1e61c4770f20ec34ec22760d3d222ce6b34dcac288d7be6738d4fb26f6a55edd6c4f#npm:2.15.4"],\
           ["pl-org-unicorns-www", "workspace:."],\
           ["process", "npm:0.11.10"],\
@@ -2789,6 +2790,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["invokers-polyfill", [\
+      ["npm:0.5.7", {\
+        "packageLocation": "../../.yarn/berry/cache/invokers-polyfill-npm-0.5.7-ec97d97dde-10c0.zip/node_modules/invokers-polyfill/",\
+        "packageDependencies": [\
+          ["invokers-polyfill", "npm:0.5.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ip-address", [\
       ["npm:10.0.1", {\
         "packageLocation": "../../.yarn/berry/cache/ip-address-npm-10.0.1-862be6199a-10c0.zip/node_modules/ip-address/",\
@@ -3472,6 +3482,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:af8ce6af302336ef11c0666539316d69ddc6bca746fad0b54c5d7dfb3efc1e61c4770f20ec34ec22760d3d222ce6b34dcac288d7be6738d4fb26f6a55edd6c4f#npm:19.1.9"],\
           ["buffer", "npm:6.0.3"],\
           ["contentful", "npm:11.7.15"],\
+          ["invokers-polyfill", "npm:0.5.7"],\
           ["parcel", "virtual:af8ce6af302336ef11c0666539316d69ddc6bca746fad0b54c5d7dfb3efc1e61c4770f20ec34ec22760d3d222ce6b34dcac288d7be6738d4fb26f6a55edd6c4f#npm:2.15.4"],\
           ["pl-org-unicorns-www", "workspace:."],\
           ["process", "npm:0.11.10"],\

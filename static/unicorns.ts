@@ -1,3 +1,5 @@
+import 'invokers-polyfill'
+
 interface CommandEvent extends Event {
 	command: string
 }

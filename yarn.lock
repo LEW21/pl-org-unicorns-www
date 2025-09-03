@@ -2355,6 +2355,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"invokers-polyfill@npm:^0.5.7":
+  version: 0.5.7
+  resolution: "invokers-polyfill@npm:0.5.7"
+  checksum: 10c0/5ea658e853e76a1943a33857f132436c6c9f948d4920134f5c1f5f168682f7721b5cbd26167c94b4956bb33cca754125939154abdbc2eb02d448f5dd7d7262f9
+  languageName: node
+  linkType: hard
+
 "ip-address@npm:^10.0.1":
   version: 10.0.1
   resolution: "ip-address@npm:10.0.1"
@@ -3012,6 +3019,7 @@ __metadata:
     "@types/react-dom": "npm:^19.0.0"
     buffer: "npm:^5.5.0||^6.0.0"
     contentful: "npm:^11.7.15"
+    invokers-polyfill: "npm:^0.5.7"
     parcel: "npm:^2.14.0"
     process: "npm:^0.11.10"
     react: "npm:^19.1.0"
