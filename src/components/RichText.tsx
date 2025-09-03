@@ -2,9 +2,10 @@ import { Asset, UnresolvedLink } from 'contentful'
 import { isActivity, isAsset, isContactMethod, pageSrc, pageTitle, Skeletons } from '../lib/model.ts'
 import * as richtext from '../lib/rich-text.ts'
 
-export function RichNode({node}: {node: richtext.Node<Skeletons> | richtext.Document<Skeletons>}) {
+export function RichNode({node}: {node: richtext.Node<Skeletons> | richtext.Document<Skeletons> | undefined}) {
 	return <>
 		{
+			node === undefined ? <></> :
 			node.nodeType === 'text' ? <Text node={node}/> :
 			node.nodeType === richtext.BLOCKS.DOCUMENT ? <NodeContent node={node}/> :
 			node.nodeType === richtext.BLOCKS.HR ? <HR node={node}/> :
